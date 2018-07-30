@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		/*h3{
+			background-color: steelblue;
+			}*/
+	/*	p{
+			width:300px;
+			margin:auto;	
+		}*/
+		div.main{
+			height:1400px;
+			width:900px;
+			margin:auto;
+		}
+		div{
+			width:300px;
+			/*margin:auto;*/
+		}	
+		.box{
+			/*background-color: lightgrey;*/
+		}
+		.main{
+			background-color: lightgrey;
+			position: relative;
+		}
+		.box1{
+			background-color: lightgreen;
+			position: relative;
+			left:300px;
+			top:100px;
+			z-index: 1;
+		}
+		.box2{
+			background-color: lightyellow;
+			position:absolute;
+			top:30px;
+			right:50px;
+			z-index: 2;
+		}
+		.box3{
+			background-color: orange;
+			position:fixed;
+			top:200px;
+			right:50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class = "box box1">
+			<h3>heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+		</div>
+		<div class = "box box2">
+			<h3>heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+		</div>
+		<div class = "box box3">
+			<h3>heading</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+		</div>
+	</div>
+</body>
+</html>
