@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+			padding:0px;
+			margin:0px;
+		}	
+		div.header{
+			background-color: black;
+		}
+		ul li{
+			padding:15px;
+			list-style-type: none;
+			float:left;
+		}
+		div.header ul li:last-of-type{
+			float:right;
+		}
+		ul li a {
+			color:#CCCCCC;
+			text-decoration: none;
+		}
+		ul li:hover {
+			background-color: #CCCCCC;
+
+		}
+		ul li:hover a{
+			color:#000000;
+		}
+		div.banner{
+			background-image:url('images/ny.jpg');
+			height:532px;
+			position: relative;
+		}
+		div.banner div{
+			position:absolute;
+			bottom:50px;
+			left:40%;
+			color:white;
+		}
+		div.banner div h3{
+			text-align:center;
+			margin-bottom: 30px;
+		}
+		br.clearfix {
+			clear:both;
+		}
+	</style>
+</head>
+<body>
+	<!-- https://www.w3schools.com/w3css/tryw3css_templates_band.htm#band -->
+	<div class="header">
+		<ul>
+			<li><a href="#home">Home </a></li>
+			<li><a href="#band">band</a></li>
+			<li><a href="#Tour">Tour</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#">More</a></li>
+			<li><a href="#">SearchIcon</a></li>
+			<br class="clearfix">
+		</ul>
+	</div>
+	<div class="banner">
+		<div>
+			<h3>Los Angeles</h3>
+			<p>We had a best time in los angeles</p>
+		</div>
+	</div>
+</body>
+</html>
