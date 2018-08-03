@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics</title>
+</head>
+<body>
+	<script type="text/javascript">
+		console.log(10)
+		var mainItem = ['biryani','noodles','jeerarice', 'pulka','kajurice'];
+		var currys = ['paneer','kajucurry','mixedvegcurry'];
+		function goToParadise(main , curry){
+			for(var i = 0; i < mainItem.length ; i = i+1){
+				if(mainItem[i] === main){
+					console.log(main + ' is available');	
+				}
+				
+			}
+		}
+		goToParadise('roti','mixedvegcurry');
+		var a = 10;
+		var b = a;
+		b = 30;
+		var friends = ['ravi','srikanth'];
+		var table = {
+			color: 'darkchoclate',
+			shape: 'rectangle',
+			supports: function(){
+				console.log('can support weight upto 10kg');
+			}
+		}
+		
+
+	</script>
+</body>
+</html>
