@@ -7,12 +7,20 @@
 	<script type="text/javascript">
 		console.log(a);
 		var a = 10;
+		var b = 30;
 		function c(){
-			var a = 30;
-			console.log(a);
+			var b = 30;
+			console.log(b);
 		} 
-		c();
-		console.log(a);
+		function d(){
+			console.log(b)
+			c();
+		}
+		function e(){
+			d();
+			console.log(b)
+		}
+		e();
 
 	</script>
 </body>

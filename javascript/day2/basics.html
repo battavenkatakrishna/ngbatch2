@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function run(){
+			
+			console.log(this);
+			return 10;
+		}
+		var num = window.run();
+		var obj = {
+			id:1,
+			test:function(){
+				console.log(this);
+			}
+		}
+		obj.test();
+	</script>
+</body>
+</html>

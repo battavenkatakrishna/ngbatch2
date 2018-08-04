@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics</title>
+</head>
+<body>
+<script type="text/javascript">
+	var mainItem = ['biryani','manchuria','butternaan','curdrice'];
+
+	var currys = ['panner','mushroomcurry','mixedvegcurry','prawnscurry'];
+	var availableMainItem;
+	var availableCurryItem;
+
+	function goToparadise(main,curry){
+
+
+		for(i=0; i<mainItem.length; i=i+1 ){
+
+			if(mainItem[i]===main){
+            	console.log( main + 'is available');
+            	availableMainItem = main;
+			}
+		}  	
+		for(j=0; j<currys.length; j=j+1){
+              if(currys[j]===curry){
+              	availableCurryItem = curry;
+              	console.log( curry + 'is available');
+              }
+          }
+      	if(availableMainItem && availableCurryItem){
+      		console.log(  main + ' , ' +  curry );
+      	}
+		// if(mainItem[i]===main && currys[j]===curry ){
+		// 	console.log(  main + ' , ' +  curry );
+		// }
+      
+    }    
+	goToparadise('butternaan','prawnscurry');
+		
+	</script>
+</body>
+</html>
