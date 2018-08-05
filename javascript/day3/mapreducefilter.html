@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map reduce filter</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var arrOfNames = [];
+		var data = [{
+				name:'dog1',
+				age:5
+			},{
+				name:'dog2',
+				age:10
+			},{
+				name: 'dog3',
+				age:8
+			}];
+
+		for(i=0;i<data.length;i++){
+			if(data[i].age * 7  > 50 ){
+				arrOfNames.push(data[i].name);
+			}
+		}
+		var dataOfNames = data.map(function(obj){
+			return obj.name;
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+html,body,ul,li,div,p,h3,button,span{
+    padding: 0px;
+    margin: 0px;
+}
+div.header{
+    background-color: black;
+}
+div.header ul li{
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+}
+div.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+div.header ul li:hover{
+    background-color: #CCCCCC;
+}
+div.header ul li:hover a{
+    color: black;
+}
+div.banner{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(images/banner.jpg);
+    height:600px;
+    margin-bottom: 5%;
+}
+div.banner div{
+    bottom: 60px;
+    position: absolute;
+    left:40%;
+}
+div.banner div h3{
+    color: white;    
+    text-align: center;
+}
+div.banner div p{
+    color: white;
+}
+br.clearfix {
+    clear:both;
+}
+div.band{
+    margin: auto;
+    width: 600px;
+    margin-bottom: 15%;
+}
+div.band div div{
+    width: 200px;
+    margin: auto;
+}
+div.band div div h2{
+    color: black;    
+    text-align: center;
+}
+div.band div div p.para{
+    text-align: center;
+    color: grey;
+}
+div.band div p{
+    margin: auto;
+}
+div.band div div.member{
+    float: left;
+}
+div.band div div.member img{
+    width: 60%;
+}
+div.band div div.member p{
+    clear: both;
+    margin: auto;
+    width: 20px;
+    text-align: center;
+}
+div.TD{
+    background-color: black;
+    margin-bottom: 5%;
+    
+    position: relative;
+}
+div.TD div.TDChild{    
+    margin-top: 5%;
+    margin: auto;
+    width: 600px;
+    height: 1000px;
+}
+div.TD div.TDChild div h2{
+    color: white;
+    text-align: center;
+}
+div.TD div.TDChild div p{
+    color: grey;
+    text-align: center;
+}
+div.TD div.TDChild div ul li{
+    margin: auto;
+    background-color: white;
+    list-style-type: none;
+    color: grey;
+    padding: 5px;
+    width: 300 px;    
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0.5px solid;
+}
+div.TD div.TDChild div ul li span{
+    left: 60%;
+    color: white;
+    /* padding-left: 20px; */
+    background-color: red;
+    width: 10%;
+}
+div.TD div.TDChild div ul li span.right{
+    float: right;
+    color: white;
+    background-color: black;
+}
+/* div.TD div.xyz{
+    clear: both;
+    width: 600px;
+    background-color: black;
+    margin: auto;
+} */
+div.xyz div{
+    width:200px;
+    float:left;
+}
+div.xyz div img{
+    width: 180px;
+}
+div.TD div.TDChild div.xyz div.BookTickets{
+    float: left;
+}
+div.TD div.xyz div.BookTickets img{
+    /*width: 20%;*/
+}
+div.TD div.xyz div.BookTickets div p{
+    /* clear: both; */
+    /*width: 20%;*/
+}
+div.TD div.xyz div.BookTickets div button{
+    /* clear: both; */
+    /*width: 20%;*/
+}

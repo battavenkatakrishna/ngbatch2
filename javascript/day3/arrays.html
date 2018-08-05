@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var arr1 = [1,2,3,4,5];
+		arr1.push('ravi');
+		arr1.unshift('srk');
+		var arr2 = [2,3,4,5,6];
+		var num = arr2.pop();
+		var num1 = arr2.shift();
+
+		var arr3 = [10,20,30,40];
+		var arr4 = arr3.slice(1,4);
+		var arr5 = arr3.splice(1,1);
+		console.log([1,2,3,4].join(10));
+		console.log([1,2,3,4].join(10).split(10));
+
+		arr3.concat(['test1','test2']);
+
+		console.log(arr3)
+		var arr6 = [9,3,1,4,6,8,5,2,7,10]
+		arr6.sort(function(initVal,nextVal){
+			return initVal - nextVal;
+		})
+
+	</script>
+</body>
+</html>
