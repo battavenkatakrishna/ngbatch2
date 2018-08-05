@@ -22,9 +22,24 @@
 				arrOfNames.push(data[i].name);
 			}
 		}
-		var dataOfNames = data.map(function(obj){
+
+		var dataOfNames = data.map(function cb(obj){
 			return obj.name;
 		})
+		var dataOfFilteredNames = data.filter(function(obj){
+			if(obj.age * 7 > 50){
+				return 9;
+			}
+			
+			
+		})
+		function run(){
+			console.log('test');
+			return function(){
+				console.log('return a function');
+			}
+		}
+		var content = run();
 	</script>
 </body>
 </html>
